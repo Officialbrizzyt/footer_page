@@ -1,0 +1,33 @@
+:root {
+    --body-bg: #3E454F;
+    --footer-background: #000;
+    --primary: #87DB1C;
+    --primary-dark: #6F9E1C;
+    --text-color: #fff;
+    --text-dark: #000;
+    --text-gray: #FEFEFE;
+    --text-heading-gray: #9E9E9E;
+    --text-primary: #FAFBFC;
+    --input-border: #161616;
+    --border: #2A2A2A;
+}
+html {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+/*? footer reset */
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background: var(--primary);
+    color: var(--text-dark);
+}
+
+body {
+    margin: 0;
+    background: var(--body-bg);
+}
